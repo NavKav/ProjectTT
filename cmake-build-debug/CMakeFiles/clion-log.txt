@@ -9,7 +9,6 @@ Call Stack (most recent call first):
   CMakeLists.txt:17 (find_package)
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
--- Found SDL2_image: C:/Users/navid/CLionProjects/ProjectTT/SDL2/lib/libSDL2_image.dll.a (found version "2.0.5") 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug

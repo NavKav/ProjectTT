@@ -141,6 +141,168 @@ ProjectTT/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/build
 .PHONY : ProjectTT/fast
 
+src/Ball.obj: src/Ball.cpp.obj
+
+.PHONY : src/Ball.obj
+
+# target to build an object file
+src/Ball.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/Ball.cpp.obj
+.PHONY : src/Ball.cpp.obj
+
+src/Ball.i: src/Ball.cpp.i
+
+.PHONY : src/Ball.i
+
+# target to preprocess a source file
+src/Ball.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/Ball.cpp.i
+.PHONY : src/Ball.cpp.i
+
+src/Ball.s: src/Ball.cpp.s
+
+.PHONY : src/Ball.s
+
+# target to generate assembly for a file
+src/Ball.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/Ball.cpp.s
+.PHONY : src/Ball.cpp.s
+
+src/ChangeTrajectoryEffect.obj: src/ChangeTrajectoryEffect.cpp.obj
+
+.PHONY : src/ChangeTrajectoryEffect.obj
+
+# target to build an object file
+src/ChangeTrajectoryEffect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.obj
+.PHONY : src/ChangeTrajectoryEffect.cpp.obj
+
+src/ChangeTrajectoryEffect.i: src/ChangeTrajectoryEffect.cpp.i
+
+.PHONY : src/ChangeTrajectoryEffect.i
+
+# target to preprocess a source file
+src/ChangeTrajectoryEffect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.i
+.PHONY : src/ChangeTrajectoryEffect.cpp.i
+
+src/ChangeTrajectoryEffect.s: src/ChangeTrajectoryEffect.cpp.s
+
+.PHONY : src/ChangeTrajectoryEffect.s
+
+# target to generate assembly for a file
+src/ChangeTrajectoryEffect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.s
+.PHONY : src/ChangeTrajectoryEffect.cpp.s
+
+src/Hitbox.obj: src/Hitbox.cpp.obj
+
+.PHONY : src/Hitbox.obj
+
+# target to build an object file
+src/Hitbox.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.obj
+.PHONY : src/Hitbox.cpp.obj
+
+src/Hitbox.i: src/Hitbox.cpp.i
+
+.PHONY : src/Hitbox.i
+
+# target to preprocess a source file
+src/Hitbox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.i
+.PHONY : src/Hitbox.cpp.i
+
+src/Hitbox.s: src/Hitbox.cpp.s
+
+.PHONY : src/Hitbox.s
+
+# target to generate assembly for a file
+src/Hitbox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.s
+.PHONY : src/Hitbox.cpp.s
+
+src/PhysicRuler.obj: src/PhysicRuler.cpp.obj
+
+.PHONY : src/PhysicRuler.obj
+
+# target to build an object file
+src/PhysicRuler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.obj
+.PHONY : src/PhysicRuler.cpp.obj
+
+src/PhysicRuler.i: src/PhysicRuler.cpp.i
+
+.PHONY : src/PhysicRuler.i
+
+# target to preprocess a source file
+src/PhysicRuler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.i
+.PHONY : src/PhysicRuler.cpp.i
+
+src/PhysicRuler.s: src/PhysicRuler.cpp.s
+
+.PHONY : src/PhysicRuler.s
+
+# target to generate assembly for a file
+src/PhysicRuler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.s
+.PHONY : src/PhysicRuler.cpp.s
+
+src/TrajectoryFunction.obj: src/TrajectoryFunction.cpp.obj
+
+.PHONY : src/TrajectoryFunction.obj
+
+# target to build an object file
+src/TrajectoryFunction.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.obj
+.PHONY : src/TrajectoryFunction.cpp.obj
+
+src/TrajectoryFunction.i: src/TrajectoryFunction.cpp.i
+
+.PHONY : src/TrajectoryFunction.i
+
+# target to preprocess a source file
+src/TrajectoryFunction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.i
+.PHONY : src/TrajectoryFunction.cpp.i
+
+src/TrajectoryFunction.s: src/TrajectoryFunction.cpp.s
+
+.PHONY : src/TrajectoryFunction.s
+
+# target to generate assembly for a file
+src/TrajectoryFunction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.s
+.PHONY : src/TrajectoryFunction.cpp.s
+
+src/Window.obj: src/Window.cpp.obj
+
+.PHONY : src/Window.obj
+
+# target to build an object file
+src/Window.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/Window.cpp.obj
+.PHONY : src/Window.cpp.obj
+
+src/Window.i: src/Window.cpp.i
+
+.PHONY : src/Window.i
+
+# target to preprocess a source file
+src/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/Window.cpp.i
+.PHONY : src/Window.cpp.i
+
+src/Window.s: src/Window.cpp.s
+
+.PHONY : src/Window.s
+
+# target to generate assembly for a file
+src/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/Window.cpp.s
+.PHONY : src/Window.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -177,6 +339,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ProjectTT
+	@echo ... src/Ball.obj
+	@echo ... src/Ball.i
+	@echo ... src/Ball.s
+	@echo ... src/ChangeTrajectoryEffect.obj
+	@echo ... src/ChangeTrajectoryEffect.i
+	@echo ... src/ChangeTrajectoryEffect.s
+	@echo ... src/Hitbox.obj
+	@echo ... src/Hitbox.i
+	@echo ... src/Hitbox.s
+	@echo ... src/PhysicRuler.obj
+	@echo ... src/PhysicRuler.i
+	@echo ... src/PhysicRuler.s
+	@echo ... src/TrajectoryFunction.obj
+	@echo ... src/TrajectoryFunction.i
+	@echo ... src/TrajectoryFunction.s
+	@echo ... src/Window.obj
+	@echo ... src/Window.i
+	@echo ... src/Window.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

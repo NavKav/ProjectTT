@@ -89,14 +89,110 @@ CMakeFiles/ProjectTT.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectTT.dir/src/main.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\navid\CLionProjects\ProjectTT\src\main.cpp -o CMakeFiles\ProjectTT.dir\src\main.cpp.s
 
+CMakeFiles/ProjectTT.dir/src/Window.cpp.obj: CMakeFiles/ProjectTT.dir/flags.make
+CMakeFiles/ProjectTT.dir/src/Window.cpp.obj: CMakeFiles/ProjectTT.dir/includes_CXX.rsp
+CMakeFiles/ProjectTT.dir/src/Window.cpp.obj: ../src/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\navid\CLionProjects\ProjectTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProjectTT.dir/src/Window.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectTT.dir\src\Window.cpp.obj -c C:\Users\navid\CLionProjects\ProjectTT\src\Window.cpp
+
+CMakeFiles/ProjectTT.dir/src/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectTT.dir/src/Window.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\navid\CLionProjects\ProjectTT\src\Window.cpp > CMakeFiles\ProjectTT.dir\src\Window.cpp.i
+
+CMakeFiles/ProjectTT.dir/src/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectTT.dir/src/Window.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\navid\CLionProjects\ProjectTT\src\Window.cpp -o CMakeFiles\ProjectTT.dir\src\Window.cpp.s
+
+CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.obj: CMakeFiles/ProjectTT.dir/flags.make
+CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.obj: CMakeFiles/ProjectTT.dir/includes_CXX.rsp
+CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.obj: ../src/Hitbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\navid\CLionProjects\ProjectTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectTT.dir\src\Hitbox.cpp.obj -c C:\Users\navid\CLionProjects\ProjectTT\src\Hitbox.cpp
+
+CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\navid\CLionProjects\ProjectTT\src\Hitbox.cpp > CMakeFiles\ProjectTT.dir\src\Hitbox.cpp.i
+
+CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\navid\CLionProjects\ProjectTT\src\Hitbox.cpp -o CMakeFiles\ProjectTT.dir\src\Hitbox.cpp.s
+
+CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.obj: CMakeFiles/ProjectTT.dir/flags.make
+CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.obj: CMakeFiles/ProjectTT.dir/includes_CXX.rsp
+CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.obj: ../src/PhysicRuler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\navid\CLionProjects\ProjectTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectTT.dir\src\PhysicRuler.cpp.obj -c C:\Users\navid\CLionProjects\ProjectTT\src\PhysicRuler.cpp
+
+CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\navid\CLionProjects\ProjectTT\src\PhysicRuler.cpp > CMakeFiles\ProjectTT.dir\src\PhysicRuler.cpp.i
+
+CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\navid\CLionProjects\ProjectTT\src\PhysicRuler.cpp -o CMakeFiles\ProjectTT.dir\src\PhysicRuler.cpp.s
+
+CMakeFiles/ProjectTT.dir/src/Ball.cpp.obj: CMakeFiles/ProjectTT.dir/flags.make
+CMakeFiles/ProjectTT.dir/src/Ball.cpp.obj: CMakeFiles/ProjectTT.dir/includes_CXX.rsp
+CMakeFiles/ProjectTT.dir/src/Ball.cpp.obj: ../src/Ball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\navid\CLionProjects\ProjectTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ProjectTT.dir/src/Ball.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectTT.dir\src\Ball.cpp.obj -c C:\Users\navid\CLionProjects\ProjectTT\src\Ball.cpp
+
+CMakeFiles/ProjectTT.dir/src/Ball.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectTT.dir/src/Ball.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\navid\CLionProjects\ProjectTT\src\Ball.cpp > CMakeFiles\ProjectTT.dir\src\Ball.cpp.i
+
+CMakeFiles/ProjectTT.dir/src/Ball.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectTT.dir/src/Ball.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\navid\CLionProjects\ProjectTT\src\Ball.cpp -o CMakeFiles\ProjectTT.dir\src\Ball.cpp.s
+
+CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.obj: CMakeFiles/ProjectTT.dir/flags.make
+CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.obj: CMakeFiles/ProjectTT.dir/includes_CXX.rsp
+CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.obj: ../src/TrajectoryFunction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\navid\CLionProjects\ProjectTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectTT.dir\src\TrajectoryFunction.cpp.obj -c C:\Users\navid\CLionProjects\ProjectTT\src\TrajectoryFunction.cpp
+
+CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\navid\CLionProjects\ProjectTT\src\TrajectoryFunction.cpp > CMakeFiles\ProjectTT.dir\src\TrajectoryFunction.cpp.i
+
+CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\navid\CLionProjects\ProjectTT\src\TrajectoryFunction.cpp -o CMakeFiles\ProjectTT.dir\src\TrajectoryFunction.cpp.s
+
+CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.obj: CMakeFiles/ProjectTT.dir/flags.make
+CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.obj: CMakeFiles/ProjectTT.dir/includes_CXX.rsp
+CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.obj: ../src/ChangeTrajectoryEffect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\navid\CLionProjects\ProjectTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ProjectTT.dir\src\ChangeTrajectoryEffect.cpp.obj -c C:\Users\navid\CLionProjects\ProjectTT\src\ChangeTrajectoryEffect.cpp
+
+CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\navid\CLionProjects\ProjectTT\src\ChangeTrajectoryEffect.cpp > CMakeFiles\ProjectTT.dir\src\ChangeTrajectoryEffect.cpp.i
+
+CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\navid\CLionProjects\ProjectTT\src\ChangeTrajectoryEffect.cpp -o CMakeFiles\ProjectTT.dir\src\ChangeTrajectoryEffect.cpp.s
+
 # Object files for target ProjectTT
 ProjectTT_OBJECTS = \
-"CMakeFiles/ProjectTT.dir/src/main.cpp.obj"
+"CMakeFiles/ProjectTT.dir/src/main.cpp.obj" \
+"CMakeFiles/ProjectTT.dir/src/Window.cpp.obj" \
+"CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.obj" \
+"CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.obj" \
+"CMakeFiles/ProjectTT.dir/src/Ball.cpp.obj" \
+"CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.obj" \
+"CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.obj"
 
 # External object files for target ProjectTT
 ProjectTT_EXTERNAL_OBJECTS =
 
 ProjectTT.exe: CMakeFiles/ProjectTT.dir/src/main.cpp.obj
+ProjectTT.exe: CMakeFiles/ProjectTT.dir/src/Window.cpp.obj
+ProjectTT.exe: CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.obj
+ProjectTT.exe: CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.obj
+ProjectTT.exe: CMakeFiles/ProjectTT.dir/src/Ball.cpp.obj
+ProjectTT.exe: CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.obj
+ProjectTT.exe: CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.obj
 ProjectTT.exe: CMakeFiles/ProjectTT.dir/build.make
 ProjectTT.exe: C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/libSDL2main.a
 ProjectTT.exe: C:/Program\ Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/libSDL2.dll.a
@@ -104,7 +200,7 @@ ProjectTT.exe: ../SDL2/lib/libSDL2_image.dll.a
 ProjectTT.exe: CMakeFiles/ProjectTT.dir/linklibs.rsp
 ProjectTT.exe: CMakeFiles/ProjectTT.dir/objects1.rsp
 ProjectTT.exe: CMakeFiles/ProjectTT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\navid\CLionProjects\ProjectTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ProjectTT.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\navid\CLionProjects\ProjectTT\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ProjectTT.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ProjectTT.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

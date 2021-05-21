@@ -16,7 +16,7 @@ set(SDL2_IMAGE_LIBRARY "${PROJECT_SOURCE_DIR}/SDL2/lib/libSDL2_image.dll.a") #ch
 find_package(SDL2 REQUIRED)
 find_package(SDL2_Image REQUIRED)
 
-add_executable(ProjectTT src/main.cpp)
+add_executable(ProjectTT src/main.cpp src/Window.cpp src/Hitbox.cpp include/Hitbox.h include/Window.h src/PhysicRuler.cpp include/PhysicRuler.h src/Ball.cpp include/Ball.h src/TrajectoryFunction.cpp include/TrajectoryFunction.h include/HitboxEffect.h src/ChangeTrajectoryEffect.cpp include/ChangeTrajectoryEffect.h include/GameEngine.h)
 
 include_directories(${PROJECT_SOURCE_DIR}/include ${SDL2_IMAGE_INCLUDE_DIR}) #inclusion des dossier nécessaire pour le
 #développement avec SDL2

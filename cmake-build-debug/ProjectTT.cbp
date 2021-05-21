@@ -84,6 +84,48 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/Ball.h">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/ChangeTrajectoryEffect.h">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/GameEngine.h">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/Hitbox.h">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/HitboxEffect.h">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/PhysicRuler.h">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/TrajectoryFunction.h">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/Window.h">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/Ball.cpp">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/ChangeTrajectoryEffect.cpp">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/Hitbox.cpp">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/PhysicRuler.cpp">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/TrajectoryFunction.cpp">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/Window.cpp">
+			<Option target="ProjectTT"/>
+		</Unit>
 		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/main.cpp">
 			<Option target="ProjectTT"/>
 		</Unit>

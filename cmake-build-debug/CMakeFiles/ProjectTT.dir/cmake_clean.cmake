@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ProjectTT.dir/src/Ball.cpp.obj"
+  "CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.obj"
+  "CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.obj"
+  "CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.obj"
+  "CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.obj"
+  "CMakeFiles/ProjectTT.dir/src/Window.cpp.obj"
   "CMakeFiles/ProjectTT.dir/src/main.cpp.obj"
   "ProjectTT.exe"
   "ProjectTT.exe.manifest"

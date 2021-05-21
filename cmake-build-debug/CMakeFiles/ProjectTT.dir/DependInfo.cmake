@@ -4,6 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/navid/CLionProjects/ProjectTT/src/Ball.cpp" "C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug/CMakeFiles/ProjectTT.dir/src/Ball.cpp.obj"
+  "C:/Users/navid/CLionProjects/ProjectTT/src/ChangeTrajectoryEffect.cpp" "C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug/CMakeFiles/ProjectTT.dir/src/ChangeTrajectoryEffect.cpp.obj"
+  "C:/Users/navid/CLionProjects/ProjectTT/src/Hitbox.cpp" "C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug/CMakeFiles/ProjectTT.dir/src/Hitbox.cpp.obj"
+  "C:/Users/navid/CLionProjects/ProjectTT/src/PhysicRuler.cpp" "C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug/CMakeFiles/ProjectTT.dir/src/PhysicRuler.cpp.obj"
+  "C:/Users/navid/CLionProjects/ProjectTT/src/TrajectoryFunction.cpp" "C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug/CMakeFiles/ProjectTT.dir/src/TrajectoryFunction.cpp.obj"
+  "C:/Users/navid/CLionProjects/ProjectTT/src/Window.cpp" "C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug/CMakeFiles/ProjectTT.dir/src/Window.cpp.obj"
   "C:/Users/navid/CLionProjects/ProjectTT/src/main.cpp" "C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug/CMakeFiles/ProjectTT.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
