@@ -3,7 +3,7 @@
 #include <windows.h>
 
 #include "Window.h"
-#include "GameEngine.h"
+#include "GameEngine/GameEngine.h"
 
 #undef main
 
@@ -11,15 +11,15 @@ using namespace std;
 
 int main( int argc, char *argv[] )
 {
-    Window x("test", 500, 500);
+    Window window("test", 1000, 700);
 
-    x.drawIMG(0, 0, "fond.png");
-    x.refresh();
+    window.drawIMG(0, 0, "fond.png");
+    window.refresh();
 
+    DisplayerConnection displayerConnection(&window);
 
-
-    PhysicRuler physicRuler(new Ball());
-    physicRuler.addHitbox(new Hitbox(0, 0, 500, 500, false, new ChangeTrajectoryEffect(drop)), "test");
-    Sleep(1000);
+    PhysicRuler physicRuler(new Ball(), &displayerConnection);
+    physicRuler.addHitbox(new Hitbox(400, 600, 500, 700, false, new ChangeTrajectoryEffect(drop)), "table");
+    Sleep(2000);
     return 0;
 }

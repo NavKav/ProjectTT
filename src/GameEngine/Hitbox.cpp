@@ -2,7 +2,7 @@
 // Created by navid on 14/05/2021.
 //
 
-#include "Hitbox.h"
+#include "GameEngine/Hitbox.h"
 
 using namespace std;
 

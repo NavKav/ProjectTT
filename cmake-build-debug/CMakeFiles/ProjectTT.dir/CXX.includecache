@@ -648,15 +648,33 @@ close_code.h
 
 ../SDL2/include/SDL2/close_code.h
 
-../include/Ball.h
-GameEngine.h
-../include/GameEngine.h
+../include/DisplayerConnection.h
+thread
+-
+sstream
+-
+queue
+-
+stdio.h
+-
+Window.h
+../include/Window.h
 
-../include/ChangeTrajectoryEffect.h
-GameEngine.h
-../include/GameEngine.h
+../include/DisplayerSource.h
+sstream
+-
+DisplayerConnection.h
+../include/DisplayerConnection.h
 
-../include/GameEngine.h
+../include/GameEngine/Ball.h
+GameEngine.h
+../include/GameEngine/GameEngine.h
+
+../include/GameEngine/ChangeTrajectoryEffect.h
+GameEngine.h
+../include/GameEngine/GameEngine.h
+
+../include/GameEngine/GameEngine.h
 iostream
 -
 memory
@@ -672,33 +690,37 @@ windows.h
 cmath
 -
 TrajectoryFunction.h
-../include/TrajectoryFunction.h
+../include/GameEngine/TrajectoryFunction.h
 Hitbox.h
-../include/Hitbox.h
-Ball.h
-../include/Ball.h
+../include/GameEngine/Hitbox.h
+GameEngine/Ball.h
+../include/GameEngine/GameEngine/Ball.h
 HitboxEffect.h
-../include/HitboxEffect.h
+../include/GameEngine/HitboxEffect.h
 PhysicRuler.h
-../include/PhysicRuler.h
-ChangeTrajectoryEffect.h
-../include/ChangeTrajectoryEffect.h
+../include/GameEngine/PhysicRuler.h
+GameEngine/ChangeTrajectoryEffect.h
+../include/GameEngine/GameEngine/ChangeTrajectoryEffect.h
 
-../include/Hitbox.h
-GameEngine.h
-../include/GameEngine.h
+../include/GameEngine/Hitbox.h
+GameEngine/GameEngine.h
+../include/GameEngine/GameEngine/GameEngine.h
 
-../include/HitboxEffect.h
-GameEngine.h
-../include/GameEngine.h
+../include/GameEngine/HitboxEffect.h
+GameEngine/GameEngine.h
+../include/GameEngine/GameEngine/GameEngine.h
 
-../include/PhysicRuler.h
-GameEngine.h
-../include/GameEngine.h
+../include/GameEngine/PhysicRuler.h
+DisplayerConnection.h
+../include/GameEngine/DisplayerConnection.h
+DisplayerSource.h
+../include/GameEngine/DisplayerSource.h
+GameEngine/GameEngine.h
+../include/GameEngine/GameEngine/GameEngine.h
 
-../include/TrajectoryFunction.h
-GameEngine.h
-../include/GameEngine.h
+../include/GameEngine/TrajectoryFunction.h
+GameEngine/GameEngine.h
+../include/GameEngine/GameEngine/GameEngine.h
 
 ../include/Window.h
 memory
@@ -710,26 +732,6 @@ SDL2/SDL.h
 SDL2/SDL_image.h
 ../include/SDL2/SDL_image.h
 
-C:/Users/navid/CLionProjects/ProjectTT/src/Ball.cpp
-Ball.h
-C:/Users/navid/CLionProjects/ProjectTT/src/Ball.h
-
-C:/Users/navid/CLionProjects/ProjectTT/src/ChangeTrajectoryEffect.cpp
-ChangeTrajectoryEffect.h
-C:/Users/navid/CLionProjects/ProjectTT/src/ChangeTrajectoryEffect.h
-
-C:/Users/navid/CLionProjects/ProjectTT/src/Hitbox.cpp
-Hitbox.h
-C:/Users/navid/CLionProjects/ProjectTT/src/Hitbox.h
-
-C:/Users/navid/CLionProjects/ProjectTT/src/PhysicRuler.cpp
-PhysicRuler.h
-C:/Users/navid/CLionProjects/ProjectTT/src/PhysicRuler.h
-
-C:/Users/navid/CLionProjects/ProjectTT/src/TrajectoryFunction.cpp
-TrajectoryFunction.h
-C:/Users/navid/CLionProjects/ProjectTT/src/TrajectoryFunction.h
-
 C:/Users/navid/CLionProjects/ProjectTT/src/main.cpp
 stdio.h
 -
@@ -739,6 +741,6 @@ windows.h
 -
 Window.h
 C:/Users/navid/CLionProjects/ProjectTT/src/Window.h
-GameEngine.h
-C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine.h
+GameEngine/GameEngine.h
+C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/GameEngine.h
 

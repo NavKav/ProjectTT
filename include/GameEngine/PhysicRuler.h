@@ -5,11 +5,13 @@
 #ifndef PROJECTTT_PHYSICRULER_H
 #define PROJECTTT_PHYSICRULER_H
 
-#include "GameEngine.h"
+#include "DisplayerConnection.h"
+#include "DisplayerSource.h"
+#include "GameEngine/GameEngine.h"
 
-class PhysicRuler {
+class PhysicRuler : public DisplayerSource {
 public:
-    PhysicRuler(Ball* ball);
+    PhysicRuler(Ball* ball, DisplayerConnection* displayerConnection);
     void addHitbox(Hitbox *hitbox, string name);
     void checkNSetBall();
     void manageBall() const;
@@ -18,6 +20,7 @@ public:
     void stop();
     void lock();
     void unlock();
+    void send(std::string s) const override;
 private :
     Hitbox_map _hitboxMap;
     Ball *_ball;

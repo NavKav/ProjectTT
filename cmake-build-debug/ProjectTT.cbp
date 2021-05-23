@@ -84,43 +84,55 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/Ball.h">
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/DisplayerConnection.h">
 			<Option target="ProjectTT"/>
 		</Unit>
-		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/ChangeTrajectoryEffect.h">
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/DisplayerSource.h">
 			<Option target="ProjectTT"/>
 		</Unit>
-		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/GameEngine.h">
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/GameEngine/Ball.h">
 			<Option target="ProjectTT"/>
 		</Unit>
-		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/Hitbox.h">
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/GameEngine/ChangeTrajectoryEffect.h">
 			<Option target="ProjectTT"/>
 		</Unit>
-		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/HitboxEffect.h">
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/GameEngine/GameEngine.h">
 			<Option target="ProjectTT"/>
 		</Unit>
-		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/PhysicRuler.h">
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/GameEngine/Hitbox.h">
 			<Option target="ProjectTT"/>
 		</Unit>
-		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/TrajectoryFunction.h">
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/GameEngine/HitboxEffect.h">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/GameEngine/PhysicRuler.h">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/GameEngine/TrajectoryFunction.h">
 			<Option target="ProjectTT"/>
 		</Unit>
 		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/Window.h">
 			<Option target="ProjectTT"/>
 		</Unit>
-		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/Ball.cpp">
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/DisplayerConnection.cpp">
 			<Option target="ProjectTT"/>
 		</Unit>
-		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/ChangeTrajectoryEffect.cpp">
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/DisplayerSource.cpp">
 			<Option target="ProjectTT"/>
 		</Unit>
-		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/Hitbox.cpp">
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/Ball.cpp">
 			<Option target="ProjectTT"/>
 		</Unit>
-		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/PhysicRuler.cpp">
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/ChangeTrajectoryEffect.cpp">
 			<Option target="ProjectTT"/>
 		</Unit>
-		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/TrajectoryFunction.cpp">
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/Hitbox.cpp">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/PhysicRuler.cpp">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/TrajectoryFunction.cpp">
 			<Option target="ProjectTT"/>
 		</Unit>
 		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/Window.cpp">

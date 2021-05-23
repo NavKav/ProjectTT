@@ -11,7 +11,7 @@
 
 class Ball {
 public :
-    double _x, _y, _x0, _y0;
+    double _x, _y, _x0, _y0, _xv0, _yv0;
 public :
     Ball(double x, double y, BallTrajectory ballTrajectory);
     Ball();
@@ -23,6 +23,9 @@ public :
     void operator++(int i);
     void setCurrentHitboxName(const string &currentHitboxName);
     void setBallTrajectory(void (*ballTrajectory)(Ball *));
+    void setV0();
+    void operator+=(double i);
+    void debug();
 
 private :
     string _currentHitboxName = "";

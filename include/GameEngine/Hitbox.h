@@ -5,7 +5,7 @@
 #ifndef PROJECTTT_HITBOX_H
 #define PROJECTTT_HITBOX_H
 
-#include "GameEngine.h"
+#include "GameEngine/GameEngine.h"
 
 class Hitbox {
 public :

@@ -18,6 +18,7 @@ class Hitbox;
 class PhysicRuler;
 class HitboxEffect;
 
+//using namespace std;
 typedef std::string string;
 typedef std::thread thread;
 typedef std::mutex mutex;
@@ -26,10 +27,10 @@ typedef void (*BallTrajectory)(Ball* ball);
 
 #include "TrajectoryFunction.h"
 #include "Hitbox.h"
-#include "Ball.h"
+#include "GameEngine/Ball.h"
 #include "HitboxEffect.h"
 #include "PhysicRuler.h"
-#include "ChangeTrajectoryEffect.h"
+#include "GameEngine/ChangeTrajectoryEffect.h"
 
 #define CONST_G 9.81
 

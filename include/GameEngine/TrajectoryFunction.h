@@ -5,7 +5,7 @@
 #ifndef PROJECTTT_TRAJECTORYFUNCTION_H
 #define PROJECTTT_TRAJECTORYFUNCTION_H
 
-#include "GameEngine.h"
+#include "GameEngine/GameEngine.h"
 
 void drop(Ball* balle);
 

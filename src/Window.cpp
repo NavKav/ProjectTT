@@ -68,4 +68,5 @@ void Window::refresh() {
     SDL_RenderCopy(_renderer, _texture, NULL, NULL);
     SDL_RenderPresent(_renderer);
     */SDL_RenderPresent(_renderer);
+    drawIMG(0, 0, "fond.png");
 }

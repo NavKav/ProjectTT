@@ -2,7 +2,7 @@
 // Created by navid on 20/05/2021.
 //
 
-#include "TrajectoryFunction.h"
+#include "GameEngine/TrajectoryFunction.h"
 
 void drop(Ball* balle) {
     balle->_x = balle->_x0;
