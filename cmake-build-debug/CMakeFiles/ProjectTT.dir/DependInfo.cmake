@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/navid/CLionProjects/ProjectTT/src/DisplayerConnection.cpp" "C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug/CMakeFiles/ProjectTT.dir/src/DisplayerConnection.cpp.obj"
   "C:/Users/navid/CLionProjects/ProjectTT/src/DisplayerSource.cpp" "C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug/CMakeFiles/ProjectTT.dir/src/DisplayerSource.cpp.obj"
   "C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/Ball.cpp" "C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug/CMakeFiles/ProjectTT.dir/src/GameEngine/Ball.cpp.obj"
+  "C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/BounceEffect.cpp" "C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug/CMakeFiles/ProjectTT.dir/src/GameEngine/BounceEffect.cpp.obj"
   "C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/ChangeTrajectoryEffect.cpp" "C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug/CMakeFiles/ProjectTT.dir/src/GameEngine/ChangeTrajectoryEffect.cpp.obj"
   "C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/Hitbox.cpp" "C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug/CMakeFiles/ProjectTT.dir/src/GameEngine/Hitbox.cpp.obj"
   "C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/PhysicRuler.cpp" "C:/Users/navid/CLionProjects/ProjectTT/cmake-build-debug/CMakeFiles/ProjectTT.dir/src/GameEngine/PhysicRuler.cpp.obj"

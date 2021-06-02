@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ProjectTT.dir/src/DisplayerConnection.cpp.obj"
   "CMakeFiles/ProjectTT.dir/src/DisplayerSource.cpp.obj"
   "CMakeFiles/ProjectTT.dir/src/GameEngine/Ball.cpp.obj"
+  "CMakeFiles/ProjectTT.dir/src/GameEngine/BounceEffect.cpp.obj"
   "CMakeFiles/ProjectTT.dir/src/GameEngine/ChangeTrajectoryEffect.cpp.obj"
   "CMakeFiles/ProjectTT.dir/src/GameEngine/Hitbox.cpp.obj"
   "CMakeFiles/ProjectTT.dir/src/GameEngine/PhysicRuler.cpp.obj"

@@ -8,6 +8,7 @@
 #include "GameEngine/GameEngine.h"
 
 void drop(Ball* balle);
+void topspin(Ball* balle);
 
 
 

@@ -4,7 +4,7 @@
 
 #include "GameEngine/Ball.h"
 
-Ball::Ball(double x, double y, BallTrajectory ballTrajectory) :
+Ball::Ball(float x, float y, BallTrajectory ballTrajectory) :
         _x(x),
         _y(y),
         _ballTrajectory(ballTrajectory){
@@ -15,16 +15,16 @@ Ball::Ball(double x, double y, BallTrajectory ballTrajectory) :
 }
 
 Ball::Ball() :
-        _x(0),
-        _y(0),
-        _ballTrajectory(drop){
+        _x(700),
+        _y(350),
+        _ballTrajectory(topspin){
     _x0 = _x;
     _y0 = _y;
-    _xv0 = 0;
-    _yv0 = 0;
+    _xv0 = -10;
+    _yv0 = -10;
 }
 
-bool Ball::isIn(double a, double b, double c, double d) const {
+bool Ball::isIn(float a, float b, float c, float d) const {
     return a <= _x &&
     _x <= c &&
     b <= _y &&
@@ -32,7 +32,7 @@ bool Ball::isIn(double a, double b, double c, double d) const {
 }
 
 void Ball::newHitbox(Hitbox *hitbox) {
-    std::cout << "new hitbox hit: " + _currentHitboxName << std::endl;
+    std::cout << "------------------- new hitbox hit: " + _currentHitboxName << " -------------------" << std::endl;
     hitbox->effect(this);
 }
 
@@ -49,7 +49,7 @@ void Ball::move() {
 }
 
 void Ball::debug() {
-    std::cout << "(" << this<< ") " << _x << " : " << _y << std::endl;
+    std::cout << "(t = " << getT() <<") " << /*"(" << this<< ") " <<*/ _x << " : " << _y << std::endl;
     std::cout << "                              (" << this<< ") " << "v0 = " << _xv0 << " : " << _yv0 << std::endl;
 }
 
@@ -75,4 +75,8 @@ void Ball::setV0() {
     aux.move();
     _xv0 = (aux._x - _x) / 0.0001;
     _yv0 = (aux._y - _y) / 0.0001;
+}
+
+void Ball::resetTime() {
+    _t = 0;
 }

@@ -10,6 +10,8 @@ _ballTrajectory(ballTrajectory)
 
 }
 void ChangeTrajectoryEffect::effect(Ball* ball) {
+    ball->_x0 = ball->_x;
+    ball->_y0 = ball->_y;
     ball->setV0();
     ball->setBallTrajectory(_ballTrajectory);
 }

@@ -222,6 +222,33 @@ src/GameEngine/Ball.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/GameEngine/Ball.cpp.s
 .PHONY : src/GameEngine/Ball.cpp.s
 
+src/GameEngine/BounceEffect.obj: src/GameEngine/BounceEffect.cpp.obj
+
+.PHONY : src/GameEngine/BounceEffect.obj
+
+# target to build an object file
+src/GameEngine/BounceEffect.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/GameEngine/BounceEffect.cpp.obj
+.PHONY : src/GameEngine/BounceEffect.cpp.obj
+
+src/GameEngine/BounceEffect.i: src/GameEngine/BounceEffect.cpp.i
+
+.PHONY : src/GameEngine/BounceEffect.i
+
+# target to preprocess a source file
+src/GameEngine/BounceEffect.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/GameEngine/BounceEffect.cpp.i
+.PHONY : src/GameEngine/BounceEffect.cpp.i
+
+src/GameEngine/BounceEffect.s: src/GameEngine/BounceEffect.cpp.s
+
+.PHONY : src/GameEngine/BounceEffect.s
+
+# target to generate assembly for a file
+src/GameEngine/BounceEffect.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProjectTT.dir\build.make CMakeFiles/ProjectTT.dir/src/GameEngine/BounceEffect.cpp.s
+.PHONY : src/GameEngine/BounceEffect.cpp.s
+
 src/GameEngine/ChangeTrajectoryEffect.obj: src/GameEngine/ChangeTrajectoryEffect.cpp.obj
 
 .PHONY : src/GameEngine/ChangeTrajectoryEffect.obj
@@ -402,6 +429,9 @@ help:
 	@echo ... src/GameEngine/Ball.obj
 	@echo ... src/GameEngine/Ball.i
 	@echo ... src/GameEngine/Ball.s
+	@echo ... src/GameEngine/BounceEffect.obj
+	@echo ... src/GameEngine/BounceEffect.i
+	@echo ... src/GameEngine/BounceEffect.s
 	@echo ... src/GameEngine/ChangeTrajectoryEffect.obj
 	@echo ... src/GameEngine/ChangeTrajectoryEffect.i
 	@echo ... src/GameEngine/ChangeTrajectoryEffect.s

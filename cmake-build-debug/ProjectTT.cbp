@@ -93,6 +93,9 @@
 		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/GameEngine/Ball.h">
 			<Option target="ProjectTT"/>
 		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/GameEngine/BounceEffect.h">
+			<Option target="ProjectTT"/>
+		</Unit>
 		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/include/GameEngine/ChangeTrajectoryEffect.h">
 			<Option target="ProjectTT"/>
 		</Unit>
@@ -121,6 +124,9 @@
 			<Option target="ProjectTT"/>
 		</Unit>
 		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/Ball.cpp">
+			<Option target="ProjectTT"/>
+		</Unit>
+		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/BounceEffect.cpp">
 			<Option target="ProjectTT"/>
 		</Unit>
 		<Unit filename="C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/ChangeTrajectoryEffect.cpp">

@@ -670,6 +670,10 @@ DisplayerConnection.h
 GameEngine.h
 ../include/GameEngine/GameEngine.h
 
+../include/GameEngine/BounceEffect.h
+GameEngine.h
+../include/GameEngine/GameEngine.h
+
 ../include/GameEngine/ChangeTrajectoryEffect.h
 GameEngine.h
 ../include/GameEngine/GameEngine.h
@@ -701,6 +705,8 @@ PhysicRuler.h
 ../include/GameEngine/PhysicRuler.h
 GameEngine/ChangeTrajectoryEffect.h
 ../include/GameEngine/GameEngine/ChangeTrajectoryEffect.h
+GameEngine/BounceEffect.h
+../include/GameEngine/GameEngine/BounceEffect.h
 
 ../include/GameEngine/Hitbox.h
 GameEngine/GameEngine.h
@@ -732,15 +738,9 @@ SDL2/SDL.h
 SDL2/SDL_image.h
 ../include/SDL2/SDL_image.h
 
-C:/Users/navid/CLionProjects/ProjectTT/src/main.cpp
-stdio.h
+C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/PhysicRuler.cpp
+unistd.h
 -
-memory
--
-windows.h
--
-Window.h
-C:/Users/navid/CLionProjects/ProjectTT/src/Window.h
-GameEngine/GameEngine.h
-C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/GameEngine.h
+GameEngine/PhysicRuler.h
+C:/Users/navid/CLionProjects/ProjectTT/src/GameEngine/GameEngine/PhysicRuler.h
 

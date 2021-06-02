@@ -19,7 +19,7 @@ int main( int argc, char *argv[] )
     DisplayerConnection displayerConnection(&window);
 
     PhysicRuler physicRuler(new Ball(), &displayerConnection);
-    physicRuler.addHitbox(new Hitbox(400, 600, 500, 700, false, new ChangeTrajectoryEffect(drop)), "table");
-    Sleep(2000);
+    physicRuler.addHitbox(new Hitbox(400, 600, 894, 680, false, new BounceEffect(0, 1.2)), "table");
+    Sleep(1000);
     return 0;
 }

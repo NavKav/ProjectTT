@@ -11,11 +11,11 @@
 
 class Ball {
 public :
-    double _x, _y, _x0, _y0, _xv0, _yv0;
+    float _x, _y, _x0, _y0, _xv0, _yv0;
 public :
-    Ball(double x, double y, BallTrajectory ballTrajectory);
+    Ball(float x, float y, BallTrajectory ballTrajectory);
     Ball();
-    bool isIn(double a, double b, double c, double d) const;
+    bool isIn(float a, float b, float c, float d) const;
     void newHitbox(Hitbox *hitbox);
     const string &getCurrentHitboxName() const;
     double getT() const;
@@ -26,6 +26,7 @@ public :
     void setV0();
     void operator+=(double i);
     void debug();
+    void resetTime();
 
 private :
     string _currentHitboxName = "";

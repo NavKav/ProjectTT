@@ -32,9 +32,10 @@ void PhysicRuler::manageBall() const{
 void PhysicRuler::start() {
     while (_boolThread) {
         lock();
-        checkNSetBall();
         manageBall();
+        checkNSetBall();
         send("balle " + to_string(_ball->_x) + " " + to_string(_ball->_y));
+        _ball->debug();
         (*_ball)++;
         unlock();
         send("");
@@ -48,7 +49,7 @@ void PhysicRuler::checkNSetBall() {
         if (access( ("ressource/image/" + hitbox.first + ".png").c_str(), F_OK ) != -1) {
             send(hitbox.first + " " + to_string(hitbox.second->getA()) + " " + to_string(hitbox.second->getB()));
         }
-        if (_ball->getCurrentHitboxName() != hitbox.first && _ball->isIn(hitbox.second->getA(), hitbox.second->getB(), hitbox.second->getC(), hitbox.second->getD())) {
+        if (/*_ball->getCurrentHitboxName() != hitbox.first &&*/ _ball->isIn(hitbox.second->getA(), hitbox.second->getB(), hitbox.second->getC(), hitbox.second->getD())) {
             _ball->setCurrentHitboxName(hitbox.first);
             _ball->newHitbox(hitbox.second.get());
         }

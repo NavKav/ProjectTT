@@ -6,7 +6,7 @@
 
 using namespace std;
 
-Hitbox::Hitbox(double a,double b,double c,double d, bool background, HitboxEffect* hitboxEffect):
+Hitbox::Hitbox(float a,float b,float c,float d, bool background, HitboxEffect* hitboxEffect):
 _a(a),
 _b(b),
 _c(c),
@@ -21,19 +21,19 @@ Hitbox::~Hitbox() {
     //std::cout << "Hitbox détruite !" << std::endl;
 }
 
-double Hitbox::getA() const {
+float Hitbox::getA() const {
     return _a;
 }
 
-double Hitbox::getB() const {
+float Hitbox::getB() const {
     return _b;
 }
 
-double Hitbox::getC() const {
+float Hitbox::getC() const {
     return _c;
 }
 
-double Hitbox::getD() const {
+float Hitbox::getD() const {
     return _d;
 }
 

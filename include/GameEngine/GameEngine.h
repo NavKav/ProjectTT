@@ -31,6 +31,7 @@ typedef void (*BallTrajectory)(Ball* ball);
 #include "HitboxEffect.h"
 #include "PhysicRuler.h"
 #include "GameEngine/ChangeTrajectoryEffect.h"
+#include "GameEngine/BounceEffect.h"
 
 #define CONST_G 9.81
 

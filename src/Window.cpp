@@ -5,6 +5,7 @@
 #include <iostream>
 
 #include "Window.h"
+#include <windows.h>
 
 using namespace std;
 
@@ -68,5 +69,6 @@ void Window::refresh() {
     SDL_RenderCopy(_renderer, _texture, NULL, NULL);
     SDL_RenderPresent(_renderer);
     */SDL_RenderPresent(_renderer);
+    Sleep(20);
     drawIMG(0, 0, "fond.png");
 }

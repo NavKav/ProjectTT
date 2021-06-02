@@ -9,15 +9,15 @@
 
 class Hitbox {
 public :
-    Hitbox(double a,double b,double c,double d, bool background, HitboxEffect* hitboxEffect);
-    double getA() const;
-    double getD() const;
-    double getC() const;
-    double getB() const;
+    Hitbox(float a,float b,float c,float d, bool background, HitboxEffect* hitboxEffect);
+    float getA() const;
+    float getD() const;
+    float getC() const;
+    float getB() const;
     ~Hitbox();
     void effect(Ball* ball);
 private :
-    double _a, _b, _c, _d;
+    float _a, _b, _c, _d;
 
 private:
     bool _background;
