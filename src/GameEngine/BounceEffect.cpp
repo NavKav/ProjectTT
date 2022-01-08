@@ -29,4 +29,9 @@ void BounceEffect::effect(Ball *ball) {
 
     ball->resetTime();
 
+    if (abs(ball->_xv0) < 1 && abs(ball->_yv0) <  1) {
+        ball->setBallTrajectory(nullptr);
+    } else {
+        ball->setBallTrajectory(parabola);
+    }
 }

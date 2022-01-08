@@ -12,6 +12,7 @@ class DisplayerSource {
 public :
     DisplayerSource(DisplayerConnection* displayerConnection);
     virtual void send(std::string s) const = 0;
+    virtual void receive(std::string s){};
 protected:
     DisplayerConnection* _displayerConnection;
 };

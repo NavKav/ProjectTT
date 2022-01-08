@@ -32,10 +32,11 @@ void PhysicRuler::manageBall() const{
 void PhysicRuler::start() {
     while (_boolThread) {
         lock();
+        managePlayer();
         manageBall();
         checkNSetBall();
         send("balle " + to_string(_ball->_x) + " " + to_string(_ball->_y));
-        _ball->debug();
+       //_ball->debug();
         (*_ball)++;
         unlock();
         send("");
@@ -43,28 +44,54 @@ void PhysicRuler::start() {
     }
 }
 
+void PhysicRuler::managePlayer() {
+    while (!_queue.empty()) {
+        std::cout <<"ok\n";
+        manageMessage(_queue.front());
+        _queue.pop();
+    }
+}
+
+void PhysicRuler::manageMessage(std::string s) {
+    std::cout << s << "|"<< std::endl;
+    if (s == "") {
+        std::cout << "done." << std::endl;
+        _boolThread = false;
+    }
+
+}
+
 void PhysicRuler::checkNSetBall() {
+    bool hasCrossedHitbox = false;
+
     for (auto hitbox : _hitboxMap) {
 
         if (access( ("ressource/image/" + hitbox.first + ".png").c_str(), F_OK ) != -1) {
             send(hitbox.first + " " + to_string(hitbox.second->getA()) + " " + to_string(hitbox.second->getB()));
         }
-        if (/*_ball->getCurrentHitboxName() != hitbox.first &&*/ _ball->isIn(hitbox.second->getA(), hitbox.second->getB(), hitbox.second->getC(), hitbox.second->getD())) {
+        if (_ball->getCurrentHitboxName() != hitbox.first && _ball->isIn(hitbox.second->getA(), hitbox.second->getB(), hitbox.second->getC(), hitbox.second->getD())) {
             _ball->setCurrentHitboxName(hitbox.first);
             _ball->newHitbox(hitbox.second.get());
+            hasCrossedHitbox = true;
         }
+    }
+
+    if (!hasCrossedHitbox) {
+        _ball->setCurrentHitboxName("Air");
     }
 }
 
 void PhysicRuler::stop() {
-    _boolThread = false;
-    _thread.join();
+    if (_boolThread){
+        _boolThread = false;
+        _thread.join();
+    }
 }
 
 PhysicRuler::~PhysicRuler() {
-    //std::cout << "calling ~PhysicRuler";
     stop();
     delete _ball;
+    std::cout << "physicRuler ends" << std::endl;
 }
 
 void PhysicRuler::lock() {
@@ -77,4 +104,11 @@ void PhysicRuler::unlock() {
 
 void PhysicRuler::send(std::string s) const {
     _displayerConnection->receive(s);
+}
+
+void PhysicRuler::receive(std::string s) {
+    lock();
+    _queue.push(s);
+    std::cout << "(PhysicRuler) receive :" + s << std::endl;
+    unlock();
 }

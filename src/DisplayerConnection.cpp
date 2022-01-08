@@ -7,7 +7,7 @@
 DisplayerConnection::DisplayerConnection(Window* window) :
 _window(window)
 {
-    _thread = std::thread(&DisplayerConnection::start, this);
+    //_thread = std::thread(&DisplayerConnection::start, this);
 }
 
 void DisplayerConnection::start() {
@@ -21,7 +21,7 @@ void DisplayerConnection::start() {
 
 void DisplayerConnection::stop() {
     _boolThread = false;
-    _thread.join();
+    //_thread.join();
 }
 
 DisplayerConnection::~DisplayerConnection() {
@@ -30,6 +30,8 @@ DisplayerConnection::~DisplayerConnection() {
 
 void DisplayerConnection::receive(std::string s) {
     _queue.push(std::istringstream(s));
+    chooseDisplay(_queue.front().str());
+    _queue.pop();
 }
 
 void DisplayerConnection::chooseDisplay(std::string s) {

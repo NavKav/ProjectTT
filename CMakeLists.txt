@@ -12,11 +12,12 @@ set(SDL2_IMAGE_INCLUDE_DIR "${PROJECT_SOURCE_DIR}/SDL2/include") #chemin spécif
 set(SDL2_IMAGE_LIBRARY "${PROJECT_SOURCE_DIR}/SDL2/lib/libSDL2_image.dll.a") #chemin spécifiant l'endroit où se situe vos
 #bibliothèques pour SDL2_Image
 
-
+set(SDL2_INCLUDE_DIR "${PROJECT_SOURCE_DIR}/SDL2/include")
+set(SDL2_LIBRARY "${PROJECT_SOURCE_DIR}/SDL2/lib/libSDL2.dll.a")
 find_package(SDL2 REQUIRED)
 find_package(SDL2_Image REQUIRED)
 
-add_executable(ProjectTT src/main.cpp src/Window.cpp src/GameEngine/Hitbox.cpp include/GameEngine/Hitbox.h include/Window.h src/GameEngine/PhysicRuler.cpp include/GameEngine/PhysicRuler.h src/GameEngine/Ball.cpp include/GameEngine/Ball.h src/GameEngine/TrajectoryFunction.cpp include/GameEngine/TrajectoryFunction.h include/GameEngine/HitboxEffect.h src/GameEngine/ChangeTrajectoryEffect.cpp include/GameEngine/ChangeTrajectoryEffect.h include/GameEngine/GameEngine.h src/DisplayerConnection.cpp include/DisplayerConnection.h src/DisplayerSource.cpp include/DisplayerSource.h src/GameEngine/BounceEffect.cpp include/GameEngine/BounceEffect.h)
+add_executable(ProjectTT src/main.cpp src/Displayer/Window.cpp src/GameEngine/Hitbox.cpp include/GameEngine/Hitbox.h include/Displayer/Window.h src/GameEngine/PhysicRuler.cpp include/GameEngine/PhysicRuler.h src/GameEngine/Ball.cpp include/GameEngine/Ball.h src/GameEngine/TrajectoryFunction.cpp include/GameEngine/TrajectoryFunction.h include/GameEngine/HitboxEffect.h src/GameEngine/ChangeTrajectoryEffect.cpp include/GameEngine/ChangeTrajectoryEffect.h include/GameEngine/GameEngine.h src/DisplayerConnection.cpp include/DisplayerConnection.h src/DisplayerSource.cpp include/DisplayerSource.h src/GameEngine/BounceEffect.cpp include/GameEngine/BounceEffect.h src/PlayerSource.cpp include/PlayerSource.h src/Player/Player.cpp include/Player/Player.h)
 
 include_directories(${PROJECT_SOURCE_DIR}/include ${SDL2_IMAGE_INCLUDE_DIR}) #inclusion des dossier nécessaire pour le
 #développement avec SDL2

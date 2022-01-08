@@ -9,7 +9,7 @@
 #include <sstream>
 #include <queue>
 #include <stdio.h>
-#include "Window.h"
+#include "Displayer/Window.h"
 
 
 class DisplayerConnection {

@@ -21,13 +21,16 @@ public:
     void lock();
     void unlock();
     void send(std::string s) const override;
+    void receive(std::string s);
+    void managePlayer();
+    void manageMessage(std::string s);
 private :
     Hitbox_map _hitboxMap;
     Ball *_ball;
     thread _thread;
     bool _boolThread = true;
     mutex _mutex;
-
+    std::queue<string> _queue;
 };
 
 

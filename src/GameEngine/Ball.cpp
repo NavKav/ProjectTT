@@ -17,7 +17,7 @@ Ball::Ball(float x, float y, BallTrajectory ballTrajectory) :
 Ball::Ball() :
         _x(700),
         _y(350),
-        _ballTrajectory(topspin){
+        _ballTrajectory(parabola){
     _x0 = _x;
     _y0 = _y;
     _xv0 = -10;
@@ -32,7 +32,7 @@ bool Ball::isIn(float a, float b, float c, float d) const {
 }
 
 void Ball::newHitbox(Hitbox *hitbox) {
-    std::cout << "------------------- new hitbox hit: " + _currentHitboxName << " -------------------" << std::endl;
+    //std::cout << "------------------- new hitbox hit: " + _currentHitboxName << " -------------------" << std::endl;
     hitbox->effect(this);
 }
 
@@ -45,7 +45,9 @@ double Ball::getT() const {
 }
 
 void Ball::move() {
-    _ballTrajectory(this);
+    if (_ballTrajectory != nullptr) {
+        _ballTrajectory(this);
+    }
 }
 
 void Ball::debug() {
@@ -79,4 +81,12 @@ void Ball::setV0() {
 
 void Ball::resetTime() {
     _t = 0;
+}
+
+bool Ball::getHasReachedAir() const {
+    return _hasReachedAir;
+}
+
+void Ball::setHasReachedAir(bool hasReachedAir) {
+    _hasReachedAir = hasReachedAir;
 }

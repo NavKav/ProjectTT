@@ -14,7 +14,7 @@ void drop(Ball* balle) {
     );
 }
 
-void topspin(Ball* balle) {
+void parabola(Ball* balle) {
     balle->_x = (float) (
             balle->_xv0 *
             balle->getT() +

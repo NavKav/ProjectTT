@@ -26,11 +26,15 @@ public :
     void setV0();
     void operator+=(double i);
     void debug();
+    bool getHasReachedAir() const;
+    void setHasReachedAir(bool hasReachedAir);
+
     void resetTime();
 
 private :
     string _currentHitboxName = "";
     double _t = 0;
+    bool _hasReachedAir = false;
 
 private:
     BallTrajectory _ballTrajectory;

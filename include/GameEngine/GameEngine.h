@@ -12,6 +12,7 @@
 #include <mutex>
 #include <windows.h>
 #include <cmath>
+#include <queue>
 
 class Ball;
 class Hitbox;
